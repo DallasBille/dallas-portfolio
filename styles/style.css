@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.page-section {
+    margin: 0 40px 40px 40px;
+    text-align: center;
+}
+
+/* =================FADE IN ================= */
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    /* -webkit-animation: fadein 1.2s;
+       -moz-animation: fadein 1.2s;
+        -ms-animation: fadein 1.2s;
+         -o-animation: fadein 1.2s;
+            animation: fadein 1.2s; */
+}
+
+    @keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+    }
+
+    /* Firefox < 16 */
+    @-moz-keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+    }
+
+    /* Safari, Chrome and Opera > 12.1 */
+    @-webkit-keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+    }
+
+    /* Internet Explorer */
+    @-ms-keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+    }
+
+    /* Opera < 12.1 */
+    @-o-keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+    }
+
+
+
+
+
+
+/* =====================Navigation and Toggle ======================= */
+
+.page-section{
+    padding-top: 20vh;
+    font-family: 'Josefin Sans', sans-serif;
+    -webkit-animation: fadein 1.2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 1.2s; /* Firefox < 16 */
+        -ms-animation: fadein 1.2s; /* Internet Explorer */
+         -o-animation: fadein 1.2s; /* Opera < 12.1 */
+            animation: fadein 1.2s;
+}
+
+.top-nav {
+    font-size: 18px;
+    position: fixed;
+    width: 100vw;
+    background-color: #3AAFA9;
+    border: 1px, solid, rgba(0, 0, 0, 0.2);
+    padding-bottom: 10px;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: none;
+}
+
+/* ================= Controls Links Color When User Is On That Page */
+.current {
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    text-align: center;
+    margin: 15px auto;
+    /* margin-left: 40px; */
+    color: black;
+}
+
+.nav-links, .logo {
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    color: white;
+}
+
+.top-nav li {
+    text-align: center;
+    margin: 15px auto;
+}
+
+.navbar-toggle {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    color: white;
+    font-size: 30px
+}
+
+.active {
+    display: block;
+}
+
+.logo{
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+/*================================Navigation and Toggle=====================  */
+.portfolio-header {
+    font-style: italic;
+}
+
+@media screen and (min-width: 700px) {
+    .top-nav {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 0;
+        height: 70px;
+        align-items: center;
+    }
+    .nav-list {
+        display: flex;
+        margin-right: 40px;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    .nav-list li {
+        margin: 0;
+    }
+    .nav-links {
+        margin-left: 40px;
+    }
+    .navbar-toggle {
+        display: none;
+    }
+    .navbar-toggle:hover,
+    .nav-links:hover {
+        color: black;
+    }
+    .current {
+        font-size: 20px;
+        font-family: 'Playfair Display', serif;
+        text-decoration: none;
+        text-align: center;
+        margin: 15px auto;
+        margin-left: 40px;
+        color: black;
+    }
+
+}
