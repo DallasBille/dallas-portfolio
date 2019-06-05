@@ -16,14 +16,14 @@ navBarToggle.addEventListener("click", (event) => {
     navList.classList.toggle("active")
 })
 
-var unex = function unexecutedFunction(){
-                return 50
-            }
-hoistingAndCallbackExample(unex)
-
-function hoistingAndCallbackExample(callback){
-    console.log(callback() * 2, "should be 100");
-}
+// var unex = function unexecutedFunction(){
+//                 return 50
+//             }
+// hoistingAndCallbackExample(unex)
+//
+// function hoistingAndCallbackExample(callback){
+//     console.log(callback() * 2, "should be 100");
+// }
 
 
 

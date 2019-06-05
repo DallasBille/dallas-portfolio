@@ -1,0 +1,44 @@
+.index-icons {
+    padding-top: 5px;
+    width: 20vh;
+}
+
+.home-icon-container {
+    width: 100vw;
+    display: flex;
+    justify-content: center
+}
+
+div {
+    display: inline-block;
+}
+
+.icons {
+    padding: 20px 100px;
+}
+
+.icon-header {
+    font-family: 'Roboto', sans-serif;
+}
+
+.home-header {
+    font-family: 'Roboto', cursive;
+    font-size: 50px;
+    padding-bottom: 20px
+}
+
+.paragraph-div {
+    padding: 200px;
+}
+
+@media screen and (max-width: 400px) {
+    .paragraph-div {
+        padding: 15px;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 700px) {
+    .paragraph-div {
+        padding: 100px;
+    }
+}

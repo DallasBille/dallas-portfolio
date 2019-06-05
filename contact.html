@@ -4,8 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Dallas' Portfolio</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+        <link href="//fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/contact.css" type="text/css">
         <link rel="stylesheet" href="styles/style.css" type="text/css">
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
 
@@ -19,13 +19,13 @@
                 <span class="navbar-toggle" id="js-navbar-toggle">
                     <i class="fas fa-bars"></i>
                 </span>
-                <a class="logo" href="#">Logo</a>
+                <a class="logo" href="#">Dallas</a>
                 <ul class="nav-list" id="js-nav">
                     <li>
                         <a class="nav-links" href="index.html">Home</a>
                     </li>
                     <li>
-                        <a class="nav-links" href="portfolio.html">Portfolio</a>
+                        <a class="nav-links" href="portfolio.html">Projects</a>
                     </li>
                     <li>
                         <a class="nav-links" href="contact.html">Contact</a>
@@ -42,13 +42,69 @@
                 </ul>
             </nav>
         </header>
+        <nav class="social-nav">
+            <a href="mailto:dallasbille@gmail.com" target="_blank">
+                <img class="nav-icons" src="images/email.png">
+            </a>
+            <a href="https://linkedin.com/in/dallasbille" target="_blank">
+                <img class="nav-icons" src="images/linked2.png">
+            </a>
+            <a href="https://github.com/DallasBille" target="_blank">
+                <img class="nav-icons" src="images/github2.png" alt="">
+            </a>
+            <a href="https://medium.com/@dallasbille" target="_blank">
+                <img class="nav-icons" src="images/medium3.png">
+            </a>
+            <a href="https://drive.google.com/file/d/1e9uEl0Stvu3gAWOW3b1j4srCjU39anFK/view?usp=sharing" target="_blank">
+                <img class="nav-icons" src="images/resume.png">
+            </a>
+        </nav>
         <section class="page-section">
-        <h1 class="contact-header">Ways To Get In Touch</h1>
-        <h6>Feel Free To Send Me An Email and I'll Get Back To You.</h6>
-        <p>Form</p>
+        <h1 class="contact-header">Feel Free To Send Me a Message</h1>
+        <div class="contact-form-container">
+            <form class="gform pure-form pure-form-stacked" method="POST" data-email="dallasbille@gmail.com"
+      action="https://script.google.com/macros/s/AKfycbyCIHAwckcoOTwxhHW5yKVxc3Li1bydb2l02q82xs4BNzrDsEY/exec">
+                <div class="row">
+                    <div class="col-25">
+                        <label class="contact-label" for="name">Name: </label>
+                    </div>
+                    <div class="col-75">
+                        <input id="name" class="form-inputs" name="name" placeholder="Your Name" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label class="form-labels" for="email"><em>Your</em>   Email Address:</label>
+                    </div>
+                    <div class="col-75">
+                        <input id="email" class="form-inputs" name="email" type="email" value=""
+                        required placeholder="your.name@email.com"/>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="message">Message: </label>
+                    </div>
+                    <div class="col-75">
+                        <textarea id="message" class="form-inputs" name="message" rows="10"
+                        placeholder=""></textarea>
+                    </div>
+                </div>
+                    <label style="display:none" for="honeypot" class="form-inputs">To help avoid spam, utilize a Honeypot technique with a hidden text field; must be empty to submit the form! Otherwise, we assume the user is a spam bot.</label>
+                    <input style="display:none" id="honeypot" class="form-inputs"type="text" name="honeypot" value="" />
+                <div class="button">
+                  <button class="button-success pure-button button-xlarge">
+                    Send</button>
+                </div>
+                <div class="thankyou_message" style="display:none;">
+                  <h2>Thanks so much for reaching out! I'll get back to you as soon as possible.</h2>
+                </div>
+            </form>
+        </div>
         </section>
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script data-cfasync="false" type="text/javascript" src="scripts/form-submission.js"></script>
         <script>AOS.init()</script>
         <script src="scripts/index.js"></script>
     </body>
