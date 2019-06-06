@@ -55,23 +55,25 @@ body {
 /* =====================Navigation and Toggle ======================= */
 
 .page-section{
-    padding-top: 20vh;
+    padding-top: 15vh;
     font-family: 'Roboto', sans-serif;
 }
 
 .top-nav {
+    /* height: 70px; */
     font-size: 18px;
     position: fixed;
-    width: 100vw;
+    width: 100%;
     background-color: #3AAFA9;
     border: 1px, solid, rgba(0, 0, 0, 0.2);
-    padding-bottom: 10px;
+    padding-bottom: 30px;
 }
 
 .nav-list {
     list-style-type: none;
     display: none;
 }
+
 
 /* ================= Controls Links Color When User Is On That Page */
 .current {
@@ -84,10 +86,16 @@ body {
     color: black;
 }
 
-.nav-links, .logo {
+.nav-links {
     font-size: 20px;
     font-family: 'Roboto', serif;
     text-decoration: none;
+    color: white;
+}
+
+.logo {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
     color: white;
 }
 
@@ -156,7 +164,6 @@ body {
         margin-left: 40px;
         color: black;
     }
-
 }
 /* @media screen and (max-width: 375px){ */
 /*================= Social Media Bar =================  */
@@ -189,3 +196,9 @@ body {
             width: 10vw;
         }
     }
+
+.nav-photo {
+    padding-left: 10px;
+    width: 55px;
+    .flex-shrink: 0;
+}

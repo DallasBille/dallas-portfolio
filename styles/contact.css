@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap);
+
 input, select, textarea{
   width: 60vw;
   padding: 12px;
@@ -8,12 +10,13 @@ input, select, textarea{
 }
 
 label {
+    font-size: 18px;
     padding: 12px;
     display: inline-block;
 }
 
 button {
-    font-size: 18px;
+  font-size: 18px;
   background-color: #2B7A78;
   color: white;
   padding: 12px 20px;
@@ -31,6 +34,13 @@ button {
 }
 
 .contact-header {
+    font-size: 40px;
     font-family: 'Roboto', sans-serif;
     padding-bottom: 20px;
+}
+
+.thumbs-icon {
+    padding-top: 50px;
+    display: inline-block;
+    width: 20vw;
 }
