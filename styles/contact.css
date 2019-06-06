@@ -9,6 +9,10 @@ input, select, textarea{
   resize: vertical;
 }
 
+h1 {
+    padding-top: 20px;
+}
+
 label {
     font-size: 18px;
     padding: 12px;

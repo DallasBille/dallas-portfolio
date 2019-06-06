@@ -27,18 +27,12 @@ div {
 }
 
 .paragraph-div {
-    padding: 50px 400px ;
+    padding: 0 20% 0 20%;
 }
 
 @media screen and (max-width: 400px) {
     .paragraph-div {
-        padding: 15px;
-    }
-}
-
-@media screen and (min-width: 400px) and (max-width: 700px) {
-    .paragraph-div {
-        padding: 100px;
+        padding: 0 5% 0 5%;
     }
 }
 
@@ -48,8 +42,9 @@ div {
 }
 p {
     text-align: left;
-    padding: 20px 15px;
+    padding: 30px 15px;
     font-size: 18px;
+    font-family: 'Roboto', sans-serif;
 }
 
 ul {
@@ -57,18 +52,14 @@ ul {
 }
 
 li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
     padding-left: 10px;
 }
 
 h2, h4 {
     border-radius: 10px;
     padding: 0px 20px 0px 20px;
-    background-color: #3AAFA9;
-}
-
-h2 {
-    /* align: center; */
-    width: 20vw;
 }
 
 .ul-tag {
@@ -91,5 +82,38 @@ hr {
 }
 
 .adventure-div {
-    padding-top: 40px
+    padding-top: 40px;
+}
+
+.bottom-paragraph {
+    padding-bottom: 50px;
+}
+
+.donate {
+    display: inline-block;
+    padding-bottom: 100px;
+}
+
+.uaee {
+    text-decoration: none;
+    color: white;
+    background-color: #4CAF50;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+}
+
+.uaee:hover {
+    cursor: pointer;
+}
+
+.green-div {
+    width: 100%;
+    background-color: #2B7A78;
+    padding: 20px;
+}
+
+.white-text {
+    color: white;
+    font-family: 'Roboto', sans-serif;
 }
