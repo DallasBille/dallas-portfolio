@@ -47,3 +47,7 @@ a:hover {
     background-color: #2B7A78;
     padding: 20px 0px 80px 0px;
 }
+
+.article-list-header {
+    color: white;
+}

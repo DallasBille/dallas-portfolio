@@ -117,3 +117,19 @@ hr {
     color: white;
     font-family: 'Roboto', sans-serif;
 }
+
+.project-button {
+    text-decoration: none;
+    color: white;
+    background-color: #17252A;
+    padding: 10px;
+    margin-bottom: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.project-button:hover {
+    cursor: pointer;
+    background-color: #2B7A78;
+}
