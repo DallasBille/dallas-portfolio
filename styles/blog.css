@@ -1,5 +1,5 @@
 .blog-header {
-    font-size: 50px;
+    font-size: 30px;
     justify-content: left;
     padding-top: 20px;
 }
@@ -50,4 +50,11 @@ a:hover {
 
 .article-list-header {
     color: white;
+}
+
+hr {
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 50vw;
 }

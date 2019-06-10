@@ -94,9 +94,8 @@ body {
 }
 
 .logo {
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    color: white;
+    font-size: 10px;
+    padding-left: 8px;
 }
 
 .top-nav li {
@@ -124,9 +123,6 @@ body {
     margin-left: 10px;
 }
 /*================================Navigation and Toggle=====================  */
-.portfolio-header {
-    font-style: italic;
-}
 
 @media screen and (min-width: 700px) {
     .top-nav {

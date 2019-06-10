@@ -1,0 +1,73 @@
+.project-image {
+    width: 60vw;
+    padding-top: 10px;
+}
+
+.project-card {
+    padding: 10px;
+    margin: 20px 0px 20px 0px;
+    /* background-color: #2B7A78; */
+    width: 70vw;
+}
+
+.project-image-div {
+    padding: 10px 0px 0px 10px;
+}
+
+#adventuro-image-div {
+    padding-bottom: 18px;
+}
+.project-info {
+    padding: 10px 0px 10px 0px;
+}
+.portfolio-header {
+    padding: 10px 0px 10px 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+.project-container {
+    display: inline-block;
+    /* flex-wrap: wrap; */
+}
+
+.lists {
+    list-style: none;
+    padding: 0px 10px 0px 10px;
+}
+
+hr {
+    display: inline-block;
+    width: 50vw;
+}
+
+#hikker {
+    padding-bottom: 30px;
+}
+
+@media screen and (max-width: 400px) {
+    .project-container {
+        width: 90vw;
+        display: inline-block;
+    }
+    .project-card {
+        width: 80vw;
+        display: inline-block;
+    }
+}
+
+.info-links {
+    text-decoration: none;
+    background-color: #2B7A78;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin: 10px 40px 10px 40px;
+}
+
+.info-links:hover {
+    background-color: #3AAFA9;
+    color: black;
+}
