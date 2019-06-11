@@ -198,3 +198,8 @@ body {
     width: 55px;
     .flex-shrink: 0;
 }
+
+.toggle-icon {
+    width: 40px;
+    padding-bottom: 5px;
+}
