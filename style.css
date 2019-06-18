@@ -164,6 +164,7 @@ body {
 /* @media screen and (max-width: 375px){ */
 /*================= Social Media Bar =================  */
     .social-nav {
+        height: 7vh;
         display: flex;
         justify-content: space-around;
         width: 100%;
@@ -186,17 +187,23 @@ body {
         .nav-icons {
             width: 10vw;
         }
+        .nav-icons:hover {
+            width: 10vw
+        }
     }
     @media screen and (min-width: 400px) and (max-width: 800px) {
         .nav-icons {
             width: 10vw;
+        }
+        .nav-icons:hover {
+            width: 10vw
         }
     }
 
 .nav-photo {
     padding-left: 10px;
     width: 55px;
-    .flex-shrink: 0;
+    flex-shrink: 0;
 }
 
 .toggle-icon {
