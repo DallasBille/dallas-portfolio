@@ -1,0 +1,64 @@
+.blog-header {
+    font-size: 30px;
+    justify-content: left;
+    padding-top: 20px;
+}
+
+.paragraph-div {
+    padding-top: 20px;
+    display: inline-block;
+    width: 50%;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    justify-content: center;
+    text-align: left;
+    padding-bottom: 50px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (max-width: 400px) {
+    .paragraph-div {
+        width: 80%;
+    }
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+a:hover {
+    color: black;
+}
+
+.article-links {
+    padding: 20px 10px;
+}
+
+.article-list {
+    background-color: #2B7A78;
+    padding: 20px 0px 80px 0px;
+}
+
+.article-list-header {
+    color: white;
+}
+
+hr {
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 50vw;
+}
+
+.green-div {
+    height:
+}

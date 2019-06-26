@@ -1,37 +1,42 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141806067-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-141806067-1');
+    </script>
+
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Dallas' Portfolio</title>
+        <title>Dallas' Portfolio</title><link rel="icon" href="images/dbpng.png">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="stylesheet" href="styles/blog.css" type="text/css">
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
 
     </head>
     <body>
         <header>
-            <!-- <div class="menu-toggle"> -->
-        <!-- </span> -->
-            <!-- </div> -->
             <nav class="top-nav">
                 <span class="navbar-toggle" id="js-navbar-toggle">
                     <i class="fas fa-bars"></i>
                 </span>
-                <a class="logo" href="#">Logo</a>
+                <a class="logo"><img src="https://fontmeme.com/permalink/190610/5042b4c9b5bb43433435547fed199f1a.png" alt="cursive-fonts" border="0"></a>
                 <ul class="nav-list" id="js-nav">
                     <li>
                         <a class="nav-links" href="index.html">Home</a>
                     </li>
                     <li>
-                        <a class="nav-links" href="portfolio.html">Portfolio</a>
+                        <a class="nav-links" href="portfolio.html">Projects</a>
                     </li>
                     <li>
                         <a class="nav-links" href="contact.html">Contact</a>
-                    </li>
-                    <li>
-                        <a class="nav-links" href="about.html">About</a>
                     </li>
                     <li>
                         <a class="nav-links" href="blog.html">Blog</a>
@@ -42,12 +47,48 @@
                 </ul>
             </nav>
         </header>
-        <h1 class="blog-header">Blog Articles</h1>
-        <h6>I Also Like To Write Articles When I Can</h6>
-        <p>Article List</p>
+        <nav class="social-nav">
+            <a href="mailto:dallasbille@gmail.com" target="_blank">
+                <img class="nav-icons" src="images/email.png">
+            </a>
+            <a href="https://linkedin.com/in/dallasbille" target="_blank">
+                <img class="nav-icons" src="images/linked2.png">
+            </a>
+            <a href="https://github.com/DallasBille" target="_blank">
+                <img class="nav-icons" src="images/github2.png" alt="">
+            </a>
+            <a href="https://medium.com/@dallasbille" target="_blank">
+                <img class="nav-icons" src="images/medium3.png">
+            </a>
+            <a href="https://drive.google.com/file/d/1oo1GQl9mWzVJFeGTY21zXQnr81-ZUZyS/view?usp=sharing" target="_blank">
+                <img class="nav-icons" src="images/resume.png">
+            </a>
+        </nav>
+        <section class="page-section">
+        <h1 class="blog-header">Writings</h1>
+        <hr>
+        <div class="paragraph-div">
+            <p>The coding community is incredibly unique in the amount of resources that exist. Everyday people put time and effort into giving away free information. With more contributing everyday, you can learn virtually anything for free. When I can, I like to give back to the community who has provided free knowledge to me.</p>
+        </div>
+        <div class="article-list">
+            <h2 class="article-list-header">Article List</h2>
+            <div class="article-links">
+                <a href="https://medium.com/@dallasbille/two-ways-of-finding-the-element-that-occurs-the-most-in-an-array-with-ruby-7fb484ea1a6d" target="_blank">Two Ways of Finding the Element That Occurs the Most in an Array with Ruby.</a>
+            </div>
+            <div class="article-links">
+                <a href="https://medium.com/@dallasbille/javascript-normal-anonymous-and-iife-functions-11505360e4d1" target="_blank">Javascript: Normal, Anonymous, and IIFE Functions.</a>
+            </div>
+            <div class="article-links">
+                <a href="https://medium.com/@dallasbille/react-sending-multiple-functions-to-a-single-child-component-6dddea1fef12" target="_blank">React: Sending Multiple Functions to a Single Child Component.</a>
+            </div>
+            <div class="article-links">
+                <a href="https://medium.com/@dallasbille/a-brief-history-of-communication-and-maybe-you-should-use-your-cell-phone-less-fdfe89abebac" target="_blank">A Brief History of Communication, and Maybe You Should Use Your Cell Phone Less?</a>
+            </div>
+        </div>
+        </section>
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script>AOS.init()</script>
-        <script src="index.js"></script>
+        <script src="scripts/index.js"></script>
     </body>
 </html>
