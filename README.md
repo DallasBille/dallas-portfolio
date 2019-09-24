@@ -1,13 +1,19 @@
-##About
-I built this prortfolio for multiple reasons.
-First of all, I need my own site to showcase what I can do, a way for you to contact me, and to tell the world a little bit about myself. Second, I needed to drastically improve my vanilla CSS skills. Thirdly, I wanted a site live, with my own DN, and hosted on a server, and to set that all up myself.
+## About
 
-##Tech Used
+This is my personal website, built entirely from scratch. I use vanilla everything. I did this because my CSS skills were really lacking, and this was an incredible learning experience in that regard. It is responsive, and hosted on a server with my own custom domain.
+
+![Imgur](https://i.imgur.com/EWuiGK3.png)
+![Imgur](https://i.imgur.com/Mu9n6UY.png)
+![Imgur](https://i.imgur.com/fiO6uxm.png)
+
+## Tech Used
 
 1. JavaScript
 2. CSS
 3. HTML
 
-##To Do's
+## To Do's
 
-1. Continuous improvements and redesign to CSS and web layout for optimal UX.
+1. Implementing improved styling for my projects page (likely do cards).
+2. Improved styling for my blog post articles list.
+3. Restyle Icon display(not vary smooth during responsive transition).
