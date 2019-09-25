@@ -1,106 +1,438 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141806067-1"></script>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-141806067-1"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-      gtag('config', 'UA-141806067-1');
+      gtag("config", "UA-141806067-1");
     </script>
 
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Dallas' Portfolio</title><link rel="icon" href="images/dbpng.png">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="style.css" type="text/css">
-        <link rel="stylesheet" href="styles/blog.css" type="text/css">
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
-
-    </head>
-    <body>
-        <header>
-            <nav class="top-nav">
-                <span class="navbar-toggle" id="js-navbar-toggle">
-                    <i class="fas fa-bars"></i>
-                </span>
-                <a class="logo" href="index.html"><img src="https://fontmeme.com/permalink/190610/5042b4c9b5bb43433435547fed199f1a.png" alt="cursive-fonts" border="0"></a>
-                <ul class="nav-list" id="js-nav">
-                    <li>
-                        <a class="nav-links" href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a class="nav-links" href="portfolio.html">Projects</a>
-                    </li>
-                    <li>
-                        <a class="nav-links" href="contact.html">Contact</a>
-                    </li>
-                    <li>
-                        <a class="nav-links" href="blog.html">Blog</a>
-                    </li>
-                    <li>
-                        <a class="nav-links" href="adventures.html">Adventures</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <nav class="social-nav">
-            <a href="mailto:dallasbille@gmail.com" target="_blank">
-                <img class="nav-icons" src="images/email.png">
-            </a>
-            <a href="https://linkedin.com/in/dallasbille" target="_blank">
-                <img class="nav-icons" src="images/linked2.png">
-            </a>
-            <a href="https://github.com/DallasBille" target="_blank">
-                <img class="nav-icons" src="images/github2.png" alt="">
-            </a>
-            <a href="https://medium.com/@dallasbille" target="_blank">
-                <img class="nav-icons" src="images/medium3.png">
-            </a>
-            <a href="https://drive.google.com/file/d/1oo1GQl9mWzVJFeGTY21zXQnr81-ZUZyS/view?usp=sharing" target="_blank">
-                <img class="nav-icons" src="images/resume.png">
-            </a>
-        </nav>
-        <section class="page-section">
-        <h1 class="blog-header">Writings</h1>
-        <hr>
-        <div class="paragraph-div">
-            <p>The coding community is incredibly unique in the amount of resources that exist. Everyday people put time and effort into giving away free information. With more contributing everyday, you can learn virtually anything for free. When I can, I like to give back to the community who has provided free knowledge to me.</p>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dallas' Portfolio</title>
+    <link rel="icon" href="images/dbpng.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="styles/blog.css" type="text/css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="top-nav">
+        <span class="navbar-toggle" id="js-navbar-toggle">
+          <i class="fas fa-bars"></i>
+        </span>
+        <a class="logo" href="index.html"
+          ><img
+            src="https://fontmeme.com/permalink/190610/5042b4c9b5bb43433435547fed199f1a.png"
+            alt="cursive-fonts"
+            border="0"
+        /></a>
+        <ul class="nav-list" id="js-nav">
+          <li>
+            <a class="nav-links" href="index.html">Home</a>
+          </li>
+          <li>
+            <a class="nav-links" href="portfolio.html">Projects</a>
+          </li>
+          <li>
+            <a class="nav-links" href="contact.html">Contact</a>
+          </li>
+          <li>
+            <a class="nav-links" href="blog.html">Blog</a>
+          </li>
+          <li>
+            <a class="nav-links" href="adventures.html">Adventures</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <nav class="social-nav">
+      <a href="mailto:dallasbille@gmail.com" target="_blank">
+        <img class="nav-icons" src="images/email.png" />
+      </a>
+      <a href="https://linkedin.com/in/dallasbille" target="_blank">
+        <img class="nav-icons" src="images/linked2.png" />
+      </a>
+      <a href="https://github.com/DallasBille" target="_blank">
+        <img class="nav-icons" src="images/github2.png" alt="" />
+      </a>
+      <a href="https://medium.com/@dallasbille" target="_blank">
+        <img class="nav-icons" src="images/medium3.png" />
+      </a>
+      <a
+        href="https://drive.google.com/file/d/1oo1GQl9mWzVJFeGTY21zXQnr81-ZUZyS/view?usp=sharing"
+        target="_blank"
+      >
+        <img class="nav-icons" src="images/resume.png" />
+      </a>
+    </nav>
+    <section class="page-section">
+      <h1 class="blog-header">Writings</h1>
+      <hr />
+      <div class="paragraph-div">
+        <p class="on-writing">
+          The coding community is incredibly unique in the amount of resources
+          that exist. Everyday people put time and effort into giving away free
+          information. With more contributing everyday, you can learn virtually
+          anything for free. When I can, I like to give back to the community
+          who has provided free knowledge to me.
+        </p>
+      </div>
+      <div class="article-list">
+        <h2 class="article-list-header">Article List</h2>
+      </div>
+    </section>
+    <section class="article-section">
+      <div class="all-articles-div">
+        <div class="article-wrapper">
+          <article>
+            <div class="info-wrapper">
+              <div class="title-div">
+                <p class="titles-text">
+                  React MapBox GL JS: Popup Components with Marker
+                </p>
+              </div>
+              <div class="article-details-div">
+                <p class="article-details">Dallas Bille *</p>
+                <p class="article-details">Sep 19 *</p>
+                <p class="article-details">4 min read</p>
+              </div>
+            </div>
+            <div class="image-div">
+              <img class="article-image" src="./images/mapbox5.png" alt="" />
+            </div>
+          </article>
         </div>
-        <div class="article-list">
-            <h2 class="article-list-header">Article List</h2>
-            <div class="article-links">
-                <a href="https://medium.com/@dallasbille/javascript-while-loops-pt-4-b9c06527d9d7" target="_blank">Javacript "while" Loops: Pt.4</a>
+        <div class="article-wrapper">
+          <article>
+            <div class="info-wrapper">
+              <div class="title-div">
+                <p class="titles-text">
+                  React MapBox GL JS: Setting Map Markers from an API.
+                </p>
+              </div>
+              <div class="article-details-div">
+                <p class="article-details">Dallas Bille *</p>
+                <p class="article-details">Sep 13 *</p>
+                <p class="article-details">5 min read</p>
+              </div>
             </div>
-            <div class="article-links">
-                <a href="https://medium.com/@dallasbille/javascript-for-of-loops-pt-3-3204846b4859" target="_blank">Javascript "for...of" Loops: Pt.3</a>
+            <div class="image-div">
+              <img class="article-image" src="./images/mapbox4.png" alt="" />
             </div>
-            <div class="article-links">
-                <a href="https://medium.com/@dallasbille/javascript-for-in-loops-pt-2-76be7df3b800" target="_blank">Javascript "for...in" Loops: Pt.2</a>
-            </div>
-            <div class="article-links">
-                <a href="https://medium.com/@dallasbille/regular-javascript-for-loops-part-1-76bab795f4c8" target="_blank">Regular Javasctipt "for" Loops: Pt. 1</a>
-            </div>
-            <div class="article-links">
-                <a href="https://medium.com/@dallasbille/two-ways-of-finding-the-element-that-occurs-the-most-in-an-array-with-ruby-7fb484ea1a6d" target="_blank">Two Ways of Finding the Element That Occurs the Most in an Array with Ruby.</a>
-            </div>
-            <div class="article-links">
-                <a href="https://medium.com/@dallasbille/javascript-normal-anonymous-and-iife-functions-11505360e4d1" target="_blank">Javascript: Normal, Anonymous, and IIFE Functions.</a>
-            </div>
-            <div class="article-links">
-                <a href="https://medium.com/@dallasbille/react-sending-multiple-functions-to-a-single-child-component-6dddea1fef12" target="_blank">React: Sending Multiple Functions to a Single Child Component.</a>
-            </div>
-            <div class="article-links">
-                <a href="https://medium.com/@dallasbille/a-brief-history-of-communication-and-maybe-you-should-use-your-cell-phone-less-fdfe89abebac" target="_blank">A Brief History of Communication, and Maybe You Should Use Your Cell Phone Less?</a>
-            </div>
+          </article>
         </div>
-        </section>
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script>AOS.init()</script>
-        <script src="scripts/index.js"></script>
-    </body>
+        <div class="article-wrapper">
+          <article>
+            <div class="info-wrapper">
+              <div class="title-div">
+                <p class="titles-text">
+                  React MapBox GL JS: User Location with Marker Component
+                </p>
+              </div>
+              <div class="article-details-div">
+                <p class="article-details">Dallas Bille *</p>
+                <p class="article-details">Aug 30 *</p>
+                <p class="article-details">5 min read</p>
+              </div>
+            </div>
+            <div class="image-div">
+              <img class="article-image" src="./images/mapbox3.png" alt="" />
+            </div>
+          </article>
+        </div>
+        <div class="article-wrapper">
+          <article>
+            <div class="info-wrapper">
+              <div class="title-div">
+                <p class="titles-text">
+                  React Mapbox GL JS: User Location With Geolocation
+                </p>
+              </div>
+              <div class="article-details-div">
+                <p class="article-details">Dallas Bille *</p>
+                <p class="article-details">Aug 23 *</p>
+                <p class="article-details">4 min read</p>
+              </div>
+            </div>
+            <div class="image-div">
+              <img class="article-image" src="./images/mapbox2.png" alt="" />
+            </div>
+          </article>
+        </div>
+        <div class="article-wrapper">
+          <article>
+            <div class="info-wrapper">
+              <div class="title-div">
+                <p class="titles-text">
+                  Getting Started with React and MapBox GL JS
+                </p>
+              </div>
+              <div class="article-details-div">
+                <p class="article-details">Dallas Bille *</p>
+                <p class="article-details">Aug 15 *</p>
+                <p class="article-details">5 min read</p>
+              </div>
+            </div>
+            <div class="image-div">
+              <img class="article-image" src="./images/mapbox1.png" alt="" />
+            </div>
+          </article>
+        </div>
+        <div class="article-wrapper">
+          <article>
+            <div class="info-wrapper">
+              <div class="title-div">
+                <p class="titles-text">
+                  Find the Most Frequently Occurring Element in an Array With
+                  Ruby
+                </p>
+              </div>
+              <div class="article-details-div">
+                <p class="article-details">Dallas Bille *</p>
+                <p class="article-details">Feb 20 *</p>
+                <p class="article-details">5 min read</p>
+              </div>
+            </div>
+            <div class="image-div">
+              <img class="article-image" src="./images/frequent-element-photo.jpeg" alt="" />
+            </div>
+          </article>
+        </div>
+        <div class="article-wrapper">
+          <article>
+            <div class="info-wrapper">
+              <div class="title-div">
+                <p class="titles-text">
+                  JavaScript: Normal, Anonymous, and IIFE Functions, Why functions are useful and what they do
+                </p>
+              </div>
+              <div class="article-details-div">
+                <p class="article-details">Dallas Bille *</p>
+                <p class="article-details">Mar 20 *</p>
+                <p class="article-details">5 min read</p>
+              </div>
+            </div>
+            <div class="image-div">
+              <img class="article-image" src="./images/functions.png" alt="" />
+            </div>
+          </article>
+        </div>
+        <div class="article-wrapper">
+          <article>
+            <div class="info-wrapper">
+              <div class="title-div">
+                <p class="titles-text">
+                  JavaScript Loops Pt.5: “do…while” Loops, A Series On JS Loops.
+                </p>
+              </div>
+              <div class="article-details-div">
+                <p class="article-details">Dallas Bille *</p>
+                <p class="article-details">Aug 9*</p>
+                <p class="article-details">3 min read</p>
+              </div>
+            </div>
+            <div class="image-div">
+              <img class="article-image" src="./images/5loop.jpeg" alt="" />
+            </div>
+          </article>
+        </div>
+        <div class="article-wrapper">
+          <article>
+            <div class="info-wrapper">
+              <div class="title-div">
+                <p class="titles-text">
+                  JavaScript Loops Pt.4: “while” Loops, A Series On JS Loops.
+                </p>
+              </div>
+              <div class="article-details-div">
+                <p class="article-details">Dallas Bille *</p>
+                <p class="article-details">Aug 4 *</p>
+                <p class="article-details">3 min read</p>
+              </div>
+            </div>
+            <div class="image-div">
+              <img class="article-image" src="./images/4loop.jpeg" alt="" />
+            </div>
+          </article>
+        </div>
+        <div class="article-wrapper">
+          <article>
+            <div class="info-wrapper">
+              <div class="title-div">
+                <p class="titles-text">
+                  JavaScript Loops Pt.3: For..Of Loops, A Series On JS Loops.
+                </p>
+              </div>
+              <div class="article-details-div">
+                <p class="article-details">Dallas Bille *</p>
+                <p class="article-details">July 15 *</p>
+                <p class="article-details">3 min read</p>
+              </div>
+            </div>
+            <div class="image-div">
+              <img class="article-image" src="./images/3loop.jpeg" alt="" />
+            </div>
+          </article>
+        </div>
+        <div class="article-wrapper">
+          <article>
+            <div class="info-wrapper">
+              <div class="title-div">
+                <p class="titles-text">
+                  JavaScript Loops Pt.2: For…In Loops, A Series On JS Loops.
+                </p>
+              </div>
+              <div class="article-details-div">
+                <p class="article-details">Dallas Bille *</p>
+                <p class="article-details">July 15 *</p>
+                <p class="article-details">4 min read</p>
+              </div>
+            </div>
+            <div class="image-div">
+              <img class="article-image" src="./images/2loop.png" alt="" />
+            </div>
+          </article>
+        </div>
+        <div class="article-wrapper">
+          <article>
+            <div class="info-wrapper">
+              <div class="title-div">
+                <p class="titles-text">
+                  JavaScript Loops Pt.1: Regular For Loops, A Series On JS
+                  Loops.
+                </p>
+              </div>
+              <div class="article-details-div">
+                <p class="article-details">Dallas Bille *</p>
+                <p class="article-details">July 10 *</p>
+                <p class="article-details">5 min read</p>
+              </div>
+            </div>
+            <div class="image-div">
+              <img class="article-image" src="./images/1loop.png" alt="" />
+            </div>
+          </article>
+        </div>
+        <div class="article-wrapper">
+          <article>
+            <div class="info-wrapper">
+              <div class="title-div">
+                <p class="titles-text">
+                  You Need To Step Away from the Problem Every Once In a While.
+                </p>
+              </div>
+              <div class="article-details-div">
+                <p class="article-details">Dallas Bille *</p>
+                <p class="article-details">Sep 8 *</p>
+                <p class="article-details">4 min read</p>
+              </div>
+            </div>
+            <div class="image-div">
+              <img
+                class="article-image"
+                src="./images/anger-medium-photo.jpeg"
+                alt=""
+              />
+            </div>
+          </article>
+        </div>
+        <div class="article-wrapper">
+          <article>
+            <div class="info-wrapper">
+              <div class="title-div">
+                <p class="titles-text">
+                  React: Sending Multiple Functions to a Single Child Component.
+                </p>
+              </div>
+              <div class="article-details-div">
+                <p class="article-details">Dallas Bille *</p>
+                <p class="article-details">April 10*</p>
+                <p class="article-details">5 min read</p>
+              </div>
+            </div>
+            <div class="image-div">
+              <img
+                class="article-image"
+                src="./images/component-medium-photo.jpeg"
+                alt=""
+              />
+            </div>
+          </article>
+        </div>
+        <div class="article-wrapper">
+          <article>
+            <div class="info-wrapper">
+              <div class="title-div">
+                <p class="titles-text">
+                  A Brief History of Communication, and You Should Use Your
+                  Phone Less?
+                </p>
+              </div>
+              <div class="article-details-div">
+                <p class="article-details">Dallas Bille *</p>
+                <p class="article-details">Mar 6 *</p>
+                <p class="article-details">7 min read</p>
+              </div>
+            </div>
+            <div class="image-div">
+              <img
+                class="article-image"
+                src="./images/communication-medium-photo.jpeg"
+                alt=""
+              />
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="scripts/index.js"></script>
+  </body>
 </html>
+
+<!-- <div class="article-links">
+        <a href="https://medium.com/@dallasbille/javascript-while-loops-pt-4-b9c06527d9d7" target="_blank">Javacript "while" Loops: Pt.4</a>
+    </div>
+    <div class="article-links">
+        <a href="https://medium.com/@dallasbille/javascript-for-of-loops-pt-3-3204846b4859" target="_blank">Javascript "for...of" Loops: Pt.3</a>
+    </div>
+    <div class="article-links">
+        <a href="https://medium.com/@dallasbille/javascript-for-in-loops-pt-2-76be7df3b800" target="_blank">Javascript "for...in" Loops: Pt.2</a>
+    </div>
+    <div class="article-links">
+        <a href="https://medium.com/@dallasbille/regular-javascript-for-loops-part-1-76bab795f4c8" target="_blank">Regular Javasctipt "for" Loops: Pt. 1</a>
+    </div>
+    <div class="article-links">
+        <a href="https://medium.com/@dallasbille/two-ways-of-finding-the-element-that-occurs-the-most-in-an-array-with-ruby-7fb484ea1a6d" target="_blank">Two Ways of Finding the Element That Occurs the Most in an Array with Ruby.</a>
+    </div>
+    <div class="article-links">
+        <a href="https://medium.com/@dallasbille/javascript-normal-anonymous-and-iife-functions-11505360e4d1" target="_blank">Javascript: Normal, Anonymous, and IIFE Functions.</a>
+    </div>
+    <div class="article-links">
+        <a href="https://medium.com/@dallasbille/react-sending-multiple-functions-to-a-single-child-component-6dddea1fef12" target="_blank">React: Sending Multiple Functions to a Single Child Component.</a>
+    </div>
+    <div class="article-links">
+        <a href="https://medium.com/@dallasbille/a-brief-history-of-communication-and-maybe-you-should-use-your-cell-phone-less-fdfe89abebac" target="_blank">A Brief History of Communication, and Maybe You Should Use Your Cell Phone Less?</a>
+    </div> -->
