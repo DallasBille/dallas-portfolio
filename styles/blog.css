@@ -108,12 +108,15 @@ hr {
 
 .article-wrapper {
   border-radius: 2px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   height: 140px;
   background-color: white;
 }
 
 .article-wrapper:hover {
+  height: 145px;
+  width: 665px;
+  background-color: rgb(216, 242, 241);
   cursor: pointer;
 }
 
