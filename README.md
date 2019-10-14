@@ -15,5 +15,4 @@ This is my personal website, built entirely from scratch. I use vanilla everythi
 ## To Do's
 
 1. Implementing improved styling for my projects page (likely do cards).
-2. Improved styling for my blog post articles list.
-3. Restyle Icon display(not vary smooth during responsive transition).
+2. Create Modal Style Nav for Contact Info.
