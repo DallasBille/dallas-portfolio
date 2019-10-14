@@ -150,6 +150,12 @@ hr {
   width: 60px;
 }
 
+.media-icon:hover {
+  cursor: pointer;
+  height: 62px;
+  width: 62px;
+}
+
 .media-div {
   right: 15px;
   padding-bottom: 10px;
@@ -160,4 +166,28 @@ hr {
 
 section {
   z-index: -1;
+}
+
+.modal-div {
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  width: 80px;
+  height: 150px;
+  display: none;
+  margin: 0 5% 10% 0;
+  background-color: white;
+}
+
+.close {
+  width: 10px;
+  height: 10px;
+}
+
+.close:hover {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
 }

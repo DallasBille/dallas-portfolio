@@ -1,6 +1,12 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap);
+@import url(
+  http://fonts.googleapis.com/css?family=Roboto:300,
+  400,
+  700&display=swap
+);
 
-input, select, textarea{
+input,
+select,
+textarea {
   width: 60vw;
   padding: 12px;
   border: 1px solid #ccc;
@@ -10,18 +16,18 @@ input, select, textarea{
 }
 
 h1 {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
 label {
-    font-size: 18px;
-    padding: 12px;
-    display: inline-block;
+  font-size: 18px;
+  padding: 12px;
+  display: inline-block;
 }
 
 button {
   font-size: 18px;
-  background-color: #2B7A78;
+  background-color: #2b7a78;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -30,27 +36,40 @@ button {
 }
 
 .button {
-    padding: 12px 0px 100px 0px;
+  padding: 12px 0px 100px 0px;
 }
 
 .contact-label {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .contact-header {
-    font-size: 30px;
-    font-family: 'Roboto', sans-serif;
-    padding-bottom: 20px;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 20px;
 }
 
 .thumbs-icon {
-    padding-top: 50px;
-    display: inline-block;
-    width: 20vw;
+  padding-top: 50px;
+  display: inline-block;
+  width: 20vw;
 }
 
 hr {
-    display: inline-block;
-    margin-bottom: 20px;
-    width: 50vw;
+  display: inline-block;
+  margin-bottom: 20px;
+  width: 50vw;
+}
+
+.media-icon {
+  height: 60px;
+  width: 60px;
+}
+
+.media-div {
+  right: 15px;
+  padding-bottom: 10px;
+  position: fixed;
+  bottom: 0;
+  z-index: 3;
 }
