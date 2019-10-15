@@ -1,0 +1,12 @@
+.media-icon {
+  height: 60px;
+  width: 60px;
+}
+
+.media-div {
+  right: 15px;
+  padding-bottom: 10px;
+  position: fixed;
+  bottom: 0;
+  z-index: 3;
+}
