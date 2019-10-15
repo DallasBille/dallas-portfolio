@@ -177,40 +177,16 @@ body {
 }
 /* @media screen and (max-width: 375px){ */
 /*================= Social Media Bar =================  */
-/* .social-nav {
-        height: 7vh;
-        display: flex;
-        justify-content: space-around;
-        width: 100%;
-        position: fixed;
-        bottom: 0;
-        top: auto;
-        right: 0;
-        background-color: #DEF2F1;
-    } */
-.nav-icons {
-  padding: 5px;
-  width: 3vw;
-}
-.nav-icons:hover {
-  width: 3.5vw;
-}
-
-@media screen and (max-width: 400px) {
-  .nav-icons {
-    width: 10vw;
-  }
-  .nav-icons:hover {
-    width: 10vw;
-  }
-}
-@media screen and (min-width: 400px) and (max-width: 800px) {
-  .nav-icons {
-    width: 10vw;
-  }
-  .nav-icons:hover {
-    width: 10vw;
-  }
+.social-nav {
+  height: 7vh;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  top: auto;
+  right: 0;
+  background-color: #def2f1;
 }
 
 .nav-photo {
@@ -222,4 +198,57 @@ body {
 .toggle-icon {
   width: 40px;
   padding-bottom: 5px;
+}
+
+/* ================== New Social Media Modal */
+
+.media-list {
+  padding-top: 13px;
+  margin: auto;
+}
+
+.nav-icons {
+  width: 40px;
+  height: 40px;
+  margin-left: 7px;
+}
+.modal-div {
+  border-radius: 15px;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  width: 80px;
+  height: 250px;
+  display: none;
+  margin: 0 15px 100px 0;
+  background-color: rgb(230 244 248);
+}
+
+ul {
+  list-style: none;
+}
+
+@media screen and (max-width: 700px) {
+  .modal-div {
+    border-radius: 15px;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    width: 100px;
+    height: 350px;
+    display: none;
+    margin: 0 0 100px 0;
+    background-color: rgb(230 244 248);
+  }
+
+  .media-list {
+    padding-top: 18px;
+    margin: auto;
+  }
+
+  .nav-icons {
+    width: 60px;
+    height: 60px;
+    margin-left: 7px;
+  }
 }
