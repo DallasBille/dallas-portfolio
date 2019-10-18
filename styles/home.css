@@ -150,12 +150,6 @@ hr {
   width: 60px;
 }
 
-.media-icon:hover {
-  cursor: pointer;
-  height: 62px;
-  width: 62px;
-}
-
 .media-div {
   right: 15px;
   padding-bottom: 10px;
