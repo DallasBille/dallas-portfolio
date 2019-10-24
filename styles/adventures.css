@@ -10,3 +10,11 @@
   bottom: 0;
   z-index: 3;
 }
+
+.adventure-title {
+  padding-top: 10px;
+}
+
+h1 {
+  padding-top: 10px;
+}
