@@ -5,6 +5,7 @@ This is my personal website, built entirely from scratch. I use vanilla everythi
 ![Imgur](https://i.imgur.com/EWuiGK3.png)
 ![Imgur](https://i.imgur.com/Mu9n6UY.png)
 ![Imgur](https://i.imgur.com/fiO6uxm.png)
+![Imgur](https://i.imgur.com/UtuwwTN.png)
 
 ## Tech Used
 
@@ -15,4 +16,4 @@ This is my personal website, built entirely from scratch. I use vanilla everythi
 ## To Do's
 
 1. Implementing improved styling for my projects page (likely do cards).
-2. Create Modal Style Nav for Contact Info.
+2. Add content and blog style section for adventures section
